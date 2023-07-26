@@ -1,5 +1,0 @@
-nome = input('Digite o nome do corretor: ')
-qtd = float(input('Digite a quantidade de imóveis vendidos: '))
-total = float(input('Digite o valor total das vendas:R$ '))
-salario = (1500+200*qtd+total) * (1+5 / 100)
-print('O salário do corretor {},é R$ {}'.format(nome, salario))
